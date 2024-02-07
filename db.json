@@ -1,0 +1,41 @@
+{
+    "posts":[
+        {
+            "id": 1,
+            "title": "The Art of Programming",
+            "description": "Discover the intricate world of programming where logic meets creativity. Dive into the depths of algorithms, data structures, and problem-solving techniques. Unravel the mysteries of code, one line at a time.",
+            "like_count": 20
+        },
+        {
+            "id": 2,
+            "title": "Exploring the Universe",
+            "description": "Embark on a cosmic journey through the vast expanse of the universe. From the birth of stars to the dance of galaxies, explore the wonders of space and time. Prepare to be awestruck.",
+            "like_count": 15
+        },
+        {
+            "id": 3,
+            "title": "The Power of Storytelling",
+            "description": "Delve into the magic of storytelling, where words weave worlds and emotions stir souls. Explore the art of narrative, from ancient myths to modern epics. Let your imagination take flight.",
+            "like_count": 30
+        },
+        {
+            "id": 4,
+            "title": "Mastering the Culinary Arts",
+            "description": "Embark on a gastronomic adventure through the flavors of the world. From sizzling spices to delicate desserts, hone your skills in the kitchen and delight your senses with culinary creations.",
+            "like_count": 25
+        },
+        {
+            "id": 5,
+            "title": "The Beauty of Nature",
+            "description": "Immerse yourself in the splendor of nature's wonders. From towering mountains to tranquil forests, experience the awe-inspiring beauty that surrounds us. Discover the harmony of life.",
+            "like_count": 18
+        },
+        {
+            "id": 6,
+            "title": "The Mind-Body Connection",
+            "description": "Explore the profound connection between mind and body, where thoughts shape reality and wellness is a journey of self-discovery. Unlock the secrets of holistic health and inner harmony.",
+            "like_count": 22
+        }
+    ]
+    
+}
