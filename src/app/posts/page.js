@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-
+import styles from './post.module.css'
 const PostsPage = async () => {
     const res = await fetch("http://localhost:5000/posts", {
         next: {
@@ -12,9 +12,9 @@ const PostsPage = async () => {
     console.log(posts)
     return (
         <div>
-            <h1 className='text-3xl font-bold'>Total Post:{posts.length} </h1>
+           <h1 className={styles.header_text}>Total Post:{posts.length} </h1>
             {posts.map((post, inbox) =>
-                <div key={post.id}
+                <div key={post.id} 
                     className="card mx-auto w-[50%] my-5 bg-slate-300 shadow-xl">
                     <div className="card-body">
                         <h2 className="card-title">{post.title}</h2>
