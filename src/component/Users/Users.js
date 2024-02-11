@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-
+import style from './user.module.css'
 const Users = () => {
     const [users, setUsers] =useState([]);
 
@@ -12,7 +12,7 @@ const Users = () => {
     },[])
     return (
         <div>
-            <h1>Total Users: {users.length}</h1>
+            <h1 className={style.header_text}>Total Users: {users.length}</h1>
             {
                 users.map((user)=><div key={user.id}
                     className="card mx-auto w-[50%] my-5 bg-slate-300 shadow-xl">
